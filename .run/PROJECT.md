@@ -48,6 +48,16 @@ announce: false
 social_scheduler: none
 newsletter_drafts_path: null
 feature_flags: none
+
+# ICM file-structure rules — baseline coverage. Targets only genuine clutter
+# (images, archives, logs); build/config files and docs stay at root. The
+# built-in ALWAYS_KEEP_AT_ROOT net also protects CLAUDE.md/README/package.json/
+# tsconfig/lockfiles regardless of these rules.
+placement_rules:
+  "*.png|*.jpg|*.jpeg|*.gif|*.webp": assets/
+  "*.zip": assets/
+  "*.log": NEVER
+  root_file_warn_threshold: 32
 ---
 
 # Claude Code 101 / Claude Code for Business — Terminal Lab
