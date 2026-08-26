@@ -1,5 +1,7 @@
 # Claude Code 101 - RPG Learning Platform
 
+> **Router:** this repo's layout, artifact map and where-to-look-next live in `.run/CONTEXT.md` — read it before searching the tree.
+
 <!-- ───────────────────────────────────────────────────────────────────── -->
 <!-- DEVELOPERS ONLY (Brady + Claude working ON this repo). NOT for students. -->
 ## /run Pipeline (MANDATORY for repo development — overrides other workflow sections)
