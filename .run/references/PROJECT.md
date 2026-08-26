@@ -58,6 +58,7 @@ placement_rules:
   "*.png|*.jpg|*.jpeg|*.gif|*.webp": assets/
   "*.zip": assets/
   "*.log": NEVER
+  "*.js": [web/js/, web/scripts/] recursive
   root_file_warn_threshold: 32
 ---
 
